@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "CoreMinimal.h"
 #include "PlatformTrigger.generated.h"
 
 UCLASS()
@@ -32,4 +33,7 @@ private:
 
 	UFUNCTION()
 	void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	UPROPERTY(EditAnywhere)
+	TArray<class AMovingPlatform*> PlatformsToTrigger;
 };
