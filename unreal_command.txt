@@ -1,0 +1,2 @@
+& "E:\UE_5.1\Engine\Binaries\Win64\UnrealEditor.exe" "E:\UE_Project\PuzzlePlatform\PuzzlePlatform.uproject" /Game/ThirdPerson/Maps/ThirdPersonMap -game -log
+& "E:\UE_5.1\Engine\Binaries\Win64\UnrealEditor.exe" "E:\UE_Project\PuzzlePlatform\PuzzlePlatform.uproject" /Game/PuzzlePlatforms/Maps/Lobby -game -log
